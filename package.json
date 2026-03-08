@@ -1,0 +1,28 @@
+{
+  "name": "mobile-simulator-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/test-runner.js",
+    "test:setup": "node tests/setup.test.js",
+    "test:connection": "node tests/connection.test.js",
+    "test:import": "node tests/import.test.js",
+    "test:products": "node tests/products.test.js",
+    "test:attribution": "node tests/attribution.test.js",
+    "test:errors": "node tests/errors.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "dotenv": "^17.3.1",
+    "jest": "^30.2.0",
+    "playwright": "^1.58.2"
+  }
+}
